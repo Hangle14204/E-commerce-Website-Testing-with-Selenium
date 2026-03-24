@@ -34,7 +34,7 @@ This project focuses on testing an e-commerce system, including both user and ad
 
 ## Test Environment
 - Target system: Local e-commerce website
-- URL: https://localhost:xxxx
+- URL: http://localhost:54077
 
 ## Note
 The tested website runs locally and is not included in this repository.
