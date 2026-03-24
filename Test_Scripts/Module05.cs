@@ -31,7 +31,7 @@ namespace Plan_Test
 
             //Mở file excel 
             dataApp = new Excel.Application();
-            dataBook = dataApp.Workbooks.Open(@"D:\\Code\\DBCLPM\\DoAn\\C07_Copy.xlsx");
+            dataBook = dataApp.Workbooks.Open(@"D:\\Code\\DBCLPM\\AutoTestforPlan\\Plan_Test\\Plan_Test\\Data_Test\\Data_Report.xlsx");
             dataSheet = dataBook.Sheets[6]; // chọn sheet số 6 trong file excel 
             xlRange = dataSheet.Cells;
 

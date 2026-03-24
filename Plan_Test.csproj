@@ -153,16 +153,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module01.cs" />
-    <Compile Include="Module02.cs" />
-    <Compile Include="Module03.cs" />
-    <Compile Include="Module04.cs" />
-    <Compile Include="Module05.cs" />
+    <Compile Include="Test_Scripts\Module01.cs" />
+    <Compile Include="Test_Scripts\Module02.cs" />
+    <Compile Include="Test_Scripts\Module03.cs" />
+    <Compile Include="Test_Scripts\Module04.cs" />
+    <Compile Include="Test_Scripts\Module05.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data_Test\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
