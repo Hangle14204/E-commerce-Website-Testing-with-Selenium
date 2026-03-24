@@ -32,6 +32,14 @@ This project focuses on testing an e-commerce system, including both user and ad
 2. Build the project
 3. Run test cases
 
+## Test Environment
+- Target system: Local e-commerce website
+- URL: https://localhost:xxxx
+
+## Note
+The tested website runs locally and is not included in this repository.
+Test scripts are provided for demonstration purposes only.
+
 ## Author
 
 Hangle
